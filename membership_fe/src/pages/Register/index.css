@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .form_input-group {
+    @apply flex flex-col;
+  }
+
+  .form-label {
+    @apply font-medium;
+  }
+
+  .input-label {
+    @apply p-2 border border-black rounded-lg
+  }
+}
